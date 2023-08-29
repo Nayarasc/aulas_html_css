@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="digite seu nome" required>
+        </div>
+
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="date" id="idade">
+        </div>
+
+        <div>
+            <label for="emai-l">Email:</label>
+            <input type="email" id="emai-l" placeholder="digite seu email" required>
+        </div>
+
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" placeholder="digite sua senha" required>
+        </div>
+
+        <div>
+            <p>1.Qual curso você estuda?</p>
+
+            <div>
+                <input type="radio" id="TI" name="curso" required>
+                <label for="TI">Técnico de Informática</label>
+            </div>
+
+            <div>
+                <input type="radio" id="TE" name="curso" required>
+                <label for="TE">Técnico de enfermagem</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Exatas" name="curso" required>
+                <label for="Exatas">Exatas</label>
+            </div>
+
+           <div>
+              <input type="radio" id="Ensino médio" name="curso" required>
+              <label for="Ensino médio">Ensino básico</label>
+           </div>
+
+        <p></p>
+
+        <div>
+            <label for="turma">Escolha sua turma:</label>
+            <select name="turma" id="turma" required>
+                <option disabled selected> Selecione...</option>
+                <option value="01ta">01TA</option>
+                <option value="01tb">01TB</option>
+                <option value="01tc">01TC</option>
+                <option value="01ma">01MA</option>
+                <option value="01mb">01MB</option>
+                <option value="01mc">01MC</option>
+            </select>
+        </div>
+
+        <button>ENTER</button>
+
+    </form>
+</body>
+</html>
